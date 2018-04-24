@@ -43,3 +43,38 @@ body {
   margin-bottom: 1rem;
   padding: 1rem;
 }
+
+// Table Content Styles
+.tC {
+  color: #555;
+  font-size: 14px;
+
+  // List
+  &-l, &-l ol {
+    line-height: 1.5;
+    margin: 0;
+    padding-left: 1rem;
+  }
+
+  // Items
+  & > ol > li {
+    border-bottom: 1px solid #bbb;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    transition: .5s all;
+
+    // Links
+    a {
+      color: #333;
+    }
+
+    // Sub-items
+    & ol > li {
+      font-size: 13px;
+
+      a {
+        color: #555;
+      }
+    }
+  }
+}
