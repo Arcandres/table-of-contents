@@ -16,7 +16,7 @@ Just call the function with the content container ID and the ID of the element y
 ```
 
 Now you just need to call the function.
-z
+
 ```javascript
 tc('article','tc', document);
 ```
