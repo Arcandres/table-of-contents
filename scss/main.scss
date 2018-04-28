@@ -38,65 +38,14 @@ body {
 }
 
 /*--------------------------------- SIDEBAR ---------------------------------*/
+@import "table-of-contents";
+
 .sidebar-block {
   background: #fff;
   margin-bottom: 1rem;
   padding: 1rem;
   position: fixed;
   width: 16rem;
-}
-
-// Table Content Styles
-.tc {
-  display: flex;
-  flex-flow: column;
-  margin: 0 .5rem;
-
-  // Items
-  h2 {
-    border-bottom: 1px solid #bbb;
-    color: #555;
-    font-size: 15px;
-    margin: 0;
-    padding-bottom: .5rem;
-    padding-top: .5rem;
-    transition: .5s all;
-  }
-
-  // Links
-  a {
-    color: #333;
-  }
-
-  // Sub-items
-  h3,h4,h5,h6 {
-    font-size: 13px;
-    margin: 0;
-
-    a {
-      color: #555;
-    }
-
-    &:before {
-      content: '- ';
-    }
-  }
-
-  h3 {
-    margin-left: .5rem;
-  }
-
-  h4 {
-    margin-left: 1rem;
-  }
-
-  h5 {
-    margin-left: 1.5rem;
-  }
-
-  h6 {
-    margin-left: 2rem;
-  }
 }
 
 /*--------------------------------- FOOTER ---------------------------------*/
