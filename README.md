@@ -1,7 +1,7 @@
 # Table of Contents with Pure Javascript
 
 ## How to use:
-Just call the function with the content container ID and the ID of the element you want to display the list.
+Just call the function with the content container ID and the ID of the element you want it to display the list.
 
 ```html
 <article id='article'>
