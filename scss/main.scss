@@ -45,36 +45,54 @@ body {
 }
 
 // Table Content Styles
-.tC {
-  color: #555;
-  font-size: 14px;
-
-  // List
-  &-l, &-l ol {
-    line-height: 1.5;
-    margin: 0;
-    padding-left: 1rem;
-  }
+.tc {
+  display: flex;
+  flex-flow: column;
+  margin: 0 .5rem;
 
   // Items
-  & > ol > li {
+  h2 {
     border-bottom: 1px solid #bbb;
+    color: #555;
+    font-size: 15px;
+    margin: 0;
     padding-bottom: .5rem;
     padding-top: .5rem;
     transition: .5s all;
+  }
 
-    // Links
+  // Links
+  a {
+    color: #333;
+  }
+
+  // Sub-items
+  h3,h4,h5,h6 {
+    font-size: 13px;
+    margin: 0;
+
     a {
-      color: #333;
+      color: #555;
     }
 
-    // Sub-items
-    & ol > li {
-      font-size: 13px;
-
-      a {
-        color: #555;
-      }
+    &:before {
+      content: '- ';
     }
+  }
+
+  h3 {
+    margin-left: .5rem;
+  }
+
+  h4 {
+    margin-left: 1rem;
+  }
+
+  h5 {
+    margin-left: 1.5rem;
+  }
+
+  h6 {
+    margin-left: 2rem;
   }
 }
