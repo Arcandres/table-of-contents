@@ -28,5 +28,3 @@ const tc = (e,c,d) => {
   // Adding to the DOM
   output.appendChild(nav);
 };
-
-tc('article','tc', document);
