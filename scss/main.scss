@@ -39,9 +39,11 @@ body {
 
 /*--------------------------------- SIDEBAR ---------------------------------*/
 .sidebar-block {
-  background: #ddd;
+  background: #fff;
   margin-bottom: 1rem;
   padding: 1rem;
+  position: fixed;
+  width: 16rem;
 }
 
 // Table Content Styles
@@ -94,5 +96,18 @@ body {
 
   h6 {
     margin-left: 2rem;
+  }
+}
+
+/*--------------------------------- FOOTER ---------------------------------*/
+.footer {
+  color: #ddd;
+  background: #21252B;
+  margin-top: 2rem;
+  padding: 2rem;
+  text-align: center;
+
+  a{
+    color: #ddd;
   }
 }
