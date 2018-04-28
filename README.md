@@ -20,4 +20,4 @@ Now you just need to call the function.
 ```javascript
 tc('article','tc', document);
 ```
-[Demo](https://arcandres.github.io/tooltips/)
+[Demo](https://arcandres.github.io/table-of-contents/)
