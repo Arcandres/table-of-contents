@@ -9,7 +9,8 @@ const tc = (e,c,d) => {
 
   let titles = tags.map(t => {
     // Adding ID to the actual titles
-    t.id = t.textContent;
+    let idContent = t.textContent.replace(/ /g, "_") 
+    t.id = idContent;
 
     //	Creating Elements
     let title = d.createElement(t.nodeName);
@@ -17,9 +18,8 @@ const tc = (e,c,d) => {
 
     // Adding Content
     link.textContent = t.textContent;
-    link.href = `#${t.textContent}`;
-    console.log(link.src)
-
+    link.href = `#${idContent}`;
+    
     title.appendChild(link);
     nav.appendChild(title);
   });
